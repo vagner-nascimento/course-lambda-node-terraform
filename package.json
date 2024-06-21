@@ -1,0 +1,22 @@
+{
+  "name": "course-lambda-node-terraform",
+  "version": "1.0.0",
+  "description": "Couse using AWS Lambda, APIGateway, Node.JS and Terraform",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vagner-nascimento/course-lambda-node-terraform.git"
+  },
+  "author": "vagnernasc88@gmail.com <Vagner Nascimento>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vagner-nascimento/course-lambda-node-terraform/issues"
+  },
+  "homepage": "https://github.com/vagner-nascimento/course-lambda-node-terraform#readme",
+  "devDependencies": {
+    "jest": "29.7.0"
+  }
+}
