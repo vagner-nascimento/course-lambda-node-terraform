@@ -4,7 +4,9 @@
   "description": "Couse using AWS Lambda, APIGateway, Node.JS and Terraform",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "coverage": "npm run test --collect-coverage",
+    "nodemon": "nodemon local/lambda.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,14 @@
   },
   "homepage": "https://github.com/vagner-nascimento/course-lambda-node-terraform#readme",
   "devDependencies": {
-    "jest": "29.7.0"
+    "jest": "29.7.0",
+    "jest-html-reporter": "3.10.2"
+  },
+  "dependencies": {
+    "express": "4.19.2",
+    "body-parser": "1.20.2",
+    "winston": "3.13.0",
+    "uuidv4": "6.2.13",
+    "nodemon": "3.1.4"
   }
 }

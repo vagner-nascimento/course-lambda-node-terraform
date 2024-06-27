@@ -7,8 +7,9 @@ class BmiCalcService {
 
             let w = parseFloat(weight, 10);
             let h = parseFloat(height, 10);
-            
-            return (w / h / h * 10000).toFixed(2);
+            let bmi = (w / h / h * 10000).toFixed(2);
+
+            return parseFloat(bmi);
         }
     }
 }
