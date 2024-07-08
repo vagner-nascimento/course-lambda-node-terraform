@@ -5,7 +5,7 @@ test('test calc for weight = 16.6 and  height = 99.1', () => {
     const height = 99.1;
     const bmi = new BmiCalcService().performaBmiCalc(weight, height);
     
-    expect(bmi).toEqual("16.90");
+    expect(bmi).toEqual(16.9);
 });
 
 test('test calc for weight = 16.6 and  height = 0', () => {

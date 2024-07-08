@@ -2,7 +2,7 @@ class Ok {
     constructor(body) {
         this.statusCode = 200;
         this.headers = { "Content-type": "application/json" };
-        this.body = body;
+        this.body = JSON.stringify(body);
         this.isBase64Encoded = false;
     }
 }

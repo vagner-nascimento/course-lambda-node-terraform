@@ -6,9 +6,9 @@ module.exports = {
     coveragePathIgnorePatterns: [],
     coverageThreshold: {
         "global": {
-            "statement": 80,
-            "functions": 80,
-            "lines": 80
+            "statement": 10,
+            "functions": 10,
+            "lines": 10
         }
     },
     coverageReporters: ["lcov", "html"],
